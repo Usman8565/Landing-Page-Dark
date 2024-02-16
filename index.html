@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d60fdfa825.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <img src="Assets/Logo1.png" alt="" />
+          <ul id="nav-items">
+            <li class="active">Home</li>
+            <li>Solutions</li>
+            <li>Pricing</li>
+            <li>About</li>
+          </ul>
+          <div class="sign-up-btn">
+            <button>Sign up</button>
+            <i
+              class="fa-solid fa-ellipsis-vertical fa-xl menu-icon"
+              id="menu-icon"
+              onclick="menutoggle()"
+            ></i>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section id="hero">
+          <div class="left-hero-content">
+            <p class="content-p">#flexiblesolution</p>
+            <h1 class="content-h">Flexible Solution For Your Business</h1>
+            <p class="content-2p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+              inventore atque esse ipsam velit repellendus ex modi iste, nemo
+              doloremque eligendi possimus expedita.
+            </p>
+            <button class="start-btn">
+              Start free today
+              <span><i class="fa-solid fa-arrow-right-long"></i></span>
+            </button>
+          </div>
+          <div class="right-hero-image">
+            <img src="Assets/hero img.png" alt="" />
+          </div>
+        </section>
+        <section id="packages">
+          <h2 class="top-heading">Packages</h2>
+          <div class="package">
+            <div class="package1 pack">
+              <h3>Free</h3>
+              <h2>FREE</h2>
+              <p>forever free for individuals and small teams up to 3</p>
+              <table>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>Unlimited Access</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>100MB Storage</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>3 Users</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>Unlimited Tasks</td>
+                </tr>
+              </table>
+              <button class="start-btn">
+                Start free today
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </button>
+            </div>
+            <div class="package2 pack">
+              <h3>Unlimited</h3>
+              <h2>$29</h2>
+              <p>per user/month billed yearly <b>$39</b> billed monthly</p>
+              <table>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>All in Free +</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>Unlimited Guests</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>Priority Support</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>Smart Notifications</td>
+                </tr>
+              </table>
+              <button class="start-btn">
+                Get Unlimited<span
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+              </button>
+            </div>
+            <div class="package3 pack">
+              <h3>Enterprise</h3>
+              <h2>$35</h2>
+              <p>per user/month billed yearly <b>$45</b> billed monthly</p>
+              <table>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>All in Unlimited +</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>Bulk Export</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>Advanced Analytics</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                  <td>Advanced Security</td>
+                </tr>
+              </table>
+              <button class="start-btn">
+                Get Enterprise<span
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="testimonial">
+          <h2 class="top-heading">Why others choose us?</h2>
+          <div class="columns">
+            <div class="col1 col">
+              <div class="quote-icon">
+                <i class="fa-solid fa-quote-left fa-2xl"></i>
+              </div>
+              <h3>Awesome Tool!</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel in provident nemo ut, non inventore saepe laboriosam!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+              </div>
+              <div class="comment-author">
+                <img class="author-img" src="Assets/author1.webp" alt="">
+                <div class="author-name">
+                  <span>John Wilson</span>
+                  <span>Founder of Borcelle</span>
+                </div>
+              </div>
+            </div>
+            <div class="col2 col">
+              <div class="quote-icon">
+                <i class="fa-solid fa-quote-left fa-2xl"></i>
+              </div>
+              <h3>Super Cool!</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel in provident nemo ut, non inventore saepe laboriosam!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+              </div>
+              <div class="comment-author">
+                <img class="author-img" src="Assets/author2.png" alt="">
+                <div class="author-name">
+                  <span>Olivia Wilson</span>
+                  <span>CEO at Borcelle</span>
+                </div>
+              </div>
+            </div>
+            <div class="col3 col">
+              <div class="quote-icon">
+                <i class="fa-solid fa-quote-left fa-2xl"></i>
+              </div>
+              <h3>Awesome Tool!</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel in provident nemo ut, non inventore saepe laboriosam!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #edbe12;"></i>
+              </div>
+              <div class="comment-author">
+                <img class="author-img" src="Assets/author3.png" alt="">
+                <div class="author-name">
+                  <span>Carl Wilson</span>
+                  <span>CFO at Borcelle</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="row">
+          <div class="col1 col">
+            <img src="Assets/Logo.png" alt="">
+            <p>Stay in the loop and sign up for the newsletter:</p>
+            <form class="input" method="post">
+              <input type="text" required placeholder="Enter your email">
+              <button>Subscribe</button>
+          </form>
+          </div>
+          <div class="col2 col">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Solutions</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Team</a></li>
+              <li><a href="">Career</a></li>
+            </ul>
+          </div>
+          <div class="col3 col">
+            <h3>Documentation</h3>
+            <ul>
+              <li><a href="">Help Centre</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col4 col">
+            <h3>Social</h3>
+            <ul>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Youtube</a></li>
+              <li><a href="">Twitter</a></li>
+            </ul>
+          </div>
+          </div>
+          <hr noshade="" color="#dfdfdf"  size="1" style="margin-top: 30px">
+          <div class="lower-footer">
+            <span>© UN Inc. All Rights Reserved 2024</span>
+            <span>Terms & Conditions</span>
+          </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      let menuitem = document.getElementById("nav-items");
+      let menuicon = document.getElementById("menu-icon");
+
+      menuicon.style.color = "#b3aaff";
+      menuitem.style.maxHeight = "0px";
+      function menutoggle() {
+        if (menuitem.style.maxHeight == "0px") {
+          menuitem.style.maxHeight = "260px";
+          menuicon.style.transform = "rotate(90deg)";
+          menuicon.style.color = "white";
+        } else {
+          menuitem.style.maxHeight = "0px";
+          menuicon.style.transform = "rotate(-180deg)";
+          menuicon.style.color = "#b3aaff";
+        }
+      }
+    </script>
+  </body>
+</html>
